@@ -14,9 +14,9 @@ const CostOfLivingCalculator = () => {
         Compare the cost of living in two different cities using this calculator.
       </p>
       <div className="w-full max-w-xs">
-        <label className="block font-bold text-sm mb-2 text-white font-system-ui">City #1</label>
+        <label className="text-bold text-indigo-200 block font-bold text-sm mb-2 text-white font-system-ui">City #1</label>
         <input
-          className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 font-system-ui"
+          className=" appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 font-system-ui"
           type="text"
           value={city1}
           onChange={(e) => setCity1(e.target.value)}
@@ -24,7 +24,7 @@ const CostOfLivingCalculator = () => {
         />
       </div>
       <div className="w-full max-w-xs mt-4">
-        <label className="block font-bold text-sm mb-2 text-white font-system-ui">City #2</label>
+        <label className="text-indigo-200 block font-bold text-sm mb-2 text-white font-system-ui">City #2</label>
         <input
           className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 font-system-ui"
           type="text"
